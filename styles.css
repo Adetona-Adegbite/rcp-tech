@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "League Spartan", sans-serif;
+}
+html,
+body {
+  scroll-behavior: smooth;
+}
+nav {
+  width: 80%;
+  height: 40px;
+  background: #fffffa;
+  margin: auto;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.4rem;
+}
+nav ul a {
+  text-decoration: none;
+  color: black;
+  margin-top: 10px;
+  position: relative;
+}
+
+.nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -5px;
+  width: 0%;
+  height: 2px;
+  background-color: black;
+  transition: width 0.5s ease;
+}
+.nav a:hover::after {
+  width: 100%;
+}
+#top {
+  background: #e5eafa;
+  text-align: center;
+}
+#top img {
+  max-width: 40%;
+  height: 300px;
+  padding: 40px 0 40px 0;
+}
+.socials {
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 40px;
+}
+.socials ion-icon {
+  color: black;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.socials a ion-icon {
+  color: #000;
+}
+.socials ion-icon:hover {
+  color: rgb(146, 146, 146);
+}
+#middle {
+  width: 100%;
+  background: #fffffa;
+  padding: 40px 0;
+  margin-bottom: 20px;
+}
+#middle img {
+  width: 70vw;
+  height: 500px;
+}
+.splide__slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.splide {
+  /* background: black; */
+}
+.intro {
+  text-align: center;
+}
+.intro h1 {
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+.intro p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+#footer {
+  background: #000;
+  color: white;
+  padding: 20px;
+}
+#footer h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 100;
+  margin-bottom: 50px;
+}
+.footer {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.footer-socials {
+  font-size: 1.3rem;
+  text-align: center;
+  padding-bottom: 10px;
+  position: relative;
+  left: -3%;
+}
+.footer-socials ion-icon {
+  margin-left: 20px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.footer-socials a ion-icon {
+  color: white;
+}
+.footer-socials ion-icon:hover {
+  color: rgb(119, 119, 119);
+}
+.address {
+  cursor: pointer;
+}
+.address p:hover {
+  text-decoration: underline;
+}
+.email {
+  cursor: pointer;
+}
+.email p:hover {
+  text-decoration: underline;
+}
+.call a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+.call a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 768px) {
+  .footer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer .call {
+    margin-bottom: 20px;
+  }
+  .footer .address {
+    margin-bottom: 20px;
+  }
+  #top img {
+    height: 150px;
+  }
+  nav ul {
+    font-size: 1rem;
+  }
+  .socials {
+    font-size: 1.5rem;
+  }
+  .intro h1 {
+    font-size: 1.7rem;
+  }
+  .intro p {
+    font-size: 1.2rem;
+  }
+  #footer h1 {
+    margin-bottom: 20px;
+  }
+}
