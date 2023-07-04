@@ -1,10 +1,13 @@
 var splide = new Splide(".splide", {
   type: "loop",
-  padding: "5rem",
+  padding: "1rem",
   perMove: 1,
-  gap: "20rem",
+  perPage:3,
+  gap: "0rem",
   drag: true,
   snap: true,
+  autoplay: true,
+  interval:3000,
   pagination: false,
   breakpoints: {
     768: {

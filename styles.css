@@ -78,21 +78,25 @@ nav ul a {
 #middle {
   width: 100%;
   background: #fffffa;
-  padding: 40px 0;
+  padding: 80px 0;
   margin-bottom: 20px;
 }
+.img_box{
+  text-align: center;
+}
 #middle img {
-  width: 70vw;
-  height: 500px;
+  /* width: 70vw;
+  height: 500px; */
+  width: 70%; 
+   flex-grow: 1;
+  aspect-ratio: 1/1;
 }
 .splide__slide {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.splide {
-  /* background: black; */
-}
+
 .intro {
   text-align: center;
 }
