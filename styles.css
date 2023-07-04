@@ -170,6 +170,10 @@ nav ul a {
   .footer {
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction:column;
+  }
+  .rc{
+    margin-top:20px;
   }
   .footer .call {
     margin-bottom: 20px;
