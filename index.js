@@ -1,19 +1,3 @@
-var splide = new Splide(".splide", {
-  type: "loop",
-  padding: "5rem",
-  perMove: 1,
-  gap: "20rem",
-  drag: true,
-  snap: true,
-  pagination: false,
-  breakpoints: {
-    768: {
-      perPage: 1, // Display 1 slide on viewport widths equal to or smaller than 768px
-    },
-  },
-});
-
-splide.mount();
 function scrollToSection(sectionId) {
   var section = document.getElementById(sectionId);
   if (section) {
@@ -34,3 +18,5 @@ function redirectToMaps() {
     "https://www.google.com/maps/search/?api=1&query=" + encodedLocation;
   window.location.href = mapsUrl;
 }
+
+//  ChIJD78v1L6NOxARHa60_I7Z7wE
