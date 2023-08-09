@@ -5,11 +5,11 @@ function scrollToSection(sectionId) {
   }
 }
 
-function sendEmail() {
-  var recipient = "radiantpower11@gmail.com";
-  var mailto = "mailto:" + recipient;
-  window.location.href = mailto;
-}
+// function sendEmail() {
+//   var recipient = "radiantpower11@gmail.com";
+//   var mailto = "mailto:" + recipient;
+//   window.location.href = mailto;
+// }
 function redirectToMaps() {
   var location =
     "No 11 OlaJesu Elias Estate.God First Ikorodu-Owode Road,Lagos, Nigeria.";
